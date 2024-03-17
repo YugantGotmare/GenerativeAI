@@ -5,7 +5,7 @@ from PIL import Image
 
 st.title("Gemini Bot")
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyAF1CS0XlZHS0WFIqSK0S6ickY8oIkGGaA"
+os.environ['GOOGLE_API_KEY'] = "GOOGLE_API_KEY"
 genai.configure(api_key = os.environ['GOOGLE_API_KEY'])
 
 # Select the model
